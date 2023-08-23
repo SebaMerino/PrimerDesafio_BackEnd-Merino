@@ -4,6 +4,7 @@ class ProducManager {
     this.idProducto = 1;
   }
 
+  // Retornamos todos los productos
   getProduct() {
     return this.productos;
   }
@@ -49,4 +50,4 @@ const productoss = new ProducManager();
 productoss.addProduct("Iphone 11 ","Blanco", 760,"ruta-imagen-1.jpg","as12", 5);
 productoss.addProduct("Iphone 12 ","Violeta", 860,"ruta-imagen-2.jpg","as13", 8);
 console.log(productoss.getProduct());
-console.log(productoss.getProductById(1));
+// console.log(productoss.getProductById(1));
